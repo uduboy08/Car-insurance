@@ -5,4 +5,11 @@ car service free;
 else 
 >= 1000km
 pay 50ro
+endif;
+if silver_ins <= 2000km
+then
+car service free;
+else >= 2000km
+then 
+pay 100ro
 end;
