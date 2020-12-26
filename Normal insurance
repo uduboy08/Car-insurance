@@ -1,0 +1,8 @@
+read_ins name, read_type , ins_ amount
+if normal_ins <= 1000km
+then 
+car service free;
+else 
+>= 1000km
+pay 50ro
+end;
