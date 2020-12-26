@@ -12,4 +12,12 @@ car service free;
 else >= 2000km
 then 
 pay 100ro
+endif;
+if gold_ins <= 2000km
+then 
+car service free;
+else 
+>=5000km
+then
+pay 10ro
 end;
